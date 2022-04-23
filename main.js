@@ -1,6 +1,6 @@
-
+alert("Hej heja!");
 let i = 0;
 setInterval(() => {
-  document.getElementById("counter").textContent = i;
+  console.log(i);
   i++
-}, 1);
+}, 500);
