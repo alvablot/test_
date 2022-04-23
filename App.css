@@ -53,20 +53,13 @@ button:hover {
   color: red;
 }
 img {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 4 / 3;
-  border: 1px solid #838080;
-  object-fit: cover;
+
+  top: 100px;
+  width: 50%;
   object-position: center;
   box-shadow: rgba(46, 46, 55, 0.2) 0px 7px 29px 0px;
 }
-.cartImg {
-  border: 0px;
-  aspect-ratio: unset;
-  box-shadow: none;
-  width: 50px;
-}
+
 .bigImg {
   width: 50%;
   aspect-ratio: inherit;
@@ -99,6 +92,7 @@ img {
 .rightHead {
   width: 90%;
 }
+content {width:}
 .headline {
   display: block;
   padding-left: 10px;
